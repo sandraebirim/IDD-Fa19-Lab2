@@ -26,7 +26,11 @@ I didn't connect 'A' on the LCD to 3.3 V on the Arduino. I corrected it by conne
 
 I would need to change: ![before](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/before.png)
 
-to ![after](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/name.png) to get the LCD to flash my name instead of "Hello World". 
+to 
+
+![after](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/name.png) 
+
+to get the LCD to flash my name instead of "Hello World". 
 
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
@@ -44,12 +48,27 @@ to ![after](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/name.png) 
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+Changing the code from this:
+
+![normal](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/normal.png)
+
+to this:
+
+![faster](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/twiceasfast.png) will result in the song playing twice as fast. 
  
 **b. What song is playing?**
 
+The opening song to Star Wars is the song that is being played. 
 
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
+
+My timer is an interval timer for a plank workout. It goes for 30 seconds, starting when you click the button, and the LED lights indicate progress through the 30 seconds. 
+
+[Timer Video](https://www.youtube.com/watch?v=zfD2SLmfcW8&feature=youtu.be)
+
+[Timer Code](https://github.com/sandraebirim/IDD-Fa19-Lab2/blob/master/Timer.ino)
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
